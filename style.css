@@ -115,6 +115,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  color: var(--LightGrey);
 }
 
 .answer p{
@@ -126,9 +127,7 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-.answer{
-  color: var(--LightGrey);
-}
+
 .correct{
   display: flex;
   justify-content: space-around;
@@ -203,5 +202,8 @@ h2 {
   .correct{
     justify-content: center;
     flex-direction: column;
+  }
+  .answer{
+    grid-template-columns: 1fr;
   }
 }
